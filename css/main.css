@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+/* universal reset */
+*,
+*:before,
+*:after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+h1{
+    font-size:
+}
+
+/* global styles */
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(73, 72, 72);
+    padding:1.5rem;
+}
+
+
+a:link, a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a.hover, a:active{
+    color: rgb(251, 0, 255);
+}
+
+/* navigation end */
+
+/* main container */
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2.5rem;
+    min-height:100vh;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+
+input, select{
+    margin-bottom: 1.5rem;
+    padding:1rem;
+    background-color: aliceblue;
+    border: none;
+    box-shadow:none;
+    margin-top: .5rem;
+}
+
+button{
+    padding:1rem;
+    background-color: darkorchid;
+    color: white;
+    border: none;
+    box-shadow: none;
+
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.5rem;
+    background-color: black;
+    color: white;
+    
+}
